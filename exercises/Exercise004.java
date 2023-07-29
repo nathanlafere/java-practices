@@ -14,7 +14,7 @@ public class Exercise004 extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("exercise004layout.fxml"));
         Parent root = fxmlLoader.load();
         Scene screen = new Scene(root);
-        primaryStage.setTitle("Exercise004");
+        primaryStage.setTitle("Exercise004 - Login");
         primaryStage.setScene(screen);
         primaryStage.show();
     }
