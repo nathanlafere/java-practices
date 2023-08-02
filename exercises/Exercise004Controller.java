@@ -11,6 +11,7 @@ import java.util.Hashtable;
 
 public class Exercise004Controller {
     private Hashtable<String,String> accounts = new Hashtable<String,String>();
+    {accounts.put("admin","admin");}
     private Stage stage;
     private Scene scene;
     @FXML
